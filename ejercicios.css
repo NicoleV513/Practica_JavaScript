@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+    background: rgb(16, 11, 11);
+    color: #fff;
+}
+
+.contenedor-footer {
+    background: #ec0a0a;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-foo {
+    padding: 10px;
+}
+
+
+.redes_sociales img {
+    width: 50px;
+    height: 50px;
+}
+
+/*Menú desplegable*/
+body#ejercicios nav {
+    text-align: center;
+    padding: 30px 50px 0 0;
+}
+
+body#ejercicios nav>li,
+a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: -10px;
+    float: left;
+}
+
+body#ejercicios nav>li,
+a:hover {
+    text-decoration: underline;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body#ejercicios header {
+    width: 100%;
+    height: 180px;
+    background: #d62445;
+    background: -webkit-linear-gradient(to right, hsla(0, 84%, 54%, 0.811), hsla(0, 93%, 39%, 0.39));
+    background: linear-gradient(to right, hsla(0, 84%, 54%, 0.811), hsla(0, 93%, 39%, 0.39));
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body#ejercicios .wave {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+body#ejercicios main h1 {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Operaciones Matemáticas*/
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.contenedor {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: #da1b1b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a05345;
+}
+
+/*Nomina*/
+body#ejercicios main section#tablita_nomina {
+    background-color: black;
+    border: white 2px solid;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body#ejercicios main section#tablita_nomina img {
+    width: 30px;
+    height: 30px;
+}
+
+body#ejercicios main section#tablita_nomina button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #DD1717;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

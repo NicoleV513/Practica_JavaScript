@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintenderos</title>
+    <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/ejercicios.css">
+    <script src="js/estacion_climatica.js"></script>
+</head>
+
+<body id="ejercicios">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="consolas.html">Consolas</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="cultura.html">Cultura</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="introducción_TLOZ.html">TLoF</a></li>
+                <li><a href="cronologia.html">Cronologia</a></li>
+                <li><a href="razas.html">Razas</a></li>
+                <li><a href="Musica.html">Hey Listen</a></li>
+                <li><a href="guia_BoTW.html">Guia BoTW</a></li>
+                <li><a href="guia_TOTK.html">Guia ToTK</a></li>
+                <li><a href="Mapa-BOTW.html">Mapa BoTW</a></li>
+                <li><a href="Mapa-TOTK.html">Mapa ToTK</a></li>
+                <li><a href="contactenos.html">Contactenos</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Ejercicios JS</a>
+                    <div class="dropdown-content">
+                        <a href="operaciones_matemáticas.html">Operaciones Matemáticas</a>
+                        <a href="#">Funciones Matemáticas</a>
+                        <a href="categorizador_respuestas.html">Categorizador de Respuestas</a>
+                        <a href="#">Producción Semanal</a>
+                        <a href="estacion_climatica.html">Estación Climática</a>
+                        <a href="#">Categorizador de Números</a>
+                        <a href="#">Estadística de Pesos</a>
+                        <a href="#">Proceso de Producción</a>
+                        <a href="#">Sistema de Notas</a>
+                        <a href="nomina1.html">Nomina de Empleados</a>
+                    </div>
+                </li>
+            </ul>
+
+        </nav>
+        <div class="wave" style="height: 100px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-0.00,50.10 C203.98,130.94 344.66,-24.37 500.29,50.10 L500.29,150.33 L-0.00,150.33 Z"
+                    style="stroke: none; fill: rgb(16, 11, 11);"></path>
+            </svg></div>
+    </header>
+    <main>
+        <h1>Calculadora de Puntaje</h1>
+        <br>
+
+
+        <div class="contenedor">
+
+            <form id="calculatorForm">
+                <label for="maxTemp">Temperatura Máxima:</label>
+                <input type="number" id="maxTemp" min="-8" max="8">
+
+                <label for="minTemp">Temperatura Mínima:</label>
+                <input type="number" id="minTemp" min="-8" max="8">
+
+                <button type='button' onclick="registrarTemperatura()">Registrar Temperatura</button>
+
+                <h2>Resultados</h2>
+                <p>Número de días registrados: <span id="numDias">0</span></p>
+                <p>Media de temperatura máxima: <span id="mediaMax">0</span></p>
+                <p>Media de temperatura mínima: <span id="mediaMin">0</span></p>
+                <p>Número de errores (temperaturas de 9°): <span id="numErrores">0</span></p>
+                <p>Porcentaje de errores: <span id="porcentajeErrores">0%</span></p>
+            </form>
+        </div>
+
+    </main>
+
+    <br>
+    <hr size="5" width="100%" color=#DD1717>
+    <br>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Nombre</h4>
+                <p>María Nicole Vargas González</p>
+            </div>
+            <div class="content-foo">
+                <h4>Código</h4>
+                <p>123675</p>
+            </div>
+            <div class="content-foo">
+                <h4>Materia</h4>
+                <p>Desarrollo Web</p>
+            </div>
+            <div class="redes_sociales">
+                <a href="http://www.whatsapp.com" target="_blank"><img src="imagenes/whatsapp.png"></a>
+                <a href="http://www.instagram.com" target="_blank"><img src="imagenes/instagram.png"></a>
+                <a href="http://www.facebook.com" target="_blank"><img src="imagenes/facebook.png"></a>
+            </div>
+            <h2 class="titulo_final">&copy; Nicole Desing | Universidad ECCI</h2>
+        </div>
+    </footer>
+</body>
+
+</html>
